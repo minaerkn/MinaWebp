@@ -14,8 +14,9 @@ namespace MinaWebp.Controllers
         Context c = new Context();
         public ActionResult Index()
         {
-            var deger = c.AnaSayfas.ToList;
+            
             return View();
         }
+       
     }
 }

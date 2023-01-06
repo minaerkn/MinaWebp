@@ -1,0 +1,14 @@
+﻿@using MinaWebp.Models.Siniflar
+@model List<ikonlar>
+@{
+    Layout = null;
+}
+
+<div class="social">
+    @foreach(var x in Model) { 
+        <a href="@x.link"><i class="@x.ikon"></i></a>
+           }
+
+
+
+</div>
